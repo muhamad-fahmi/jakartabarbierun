@@ -1,6 +1,6 @@
 <section id="navbar">
     <nav class="navbar navbar-expand-lg fixed-top bg-primary">
-        <a class="navbar-brand" href="/">
+        <a class="navbar-brand" href="/jakartabarbierun">
             <img src="assets/images/webpage/logo_barbie_white.svg" alt="Jakarta Barbie Run 2023" width="90">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -11,19 +11,20 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mx-lg-auto">
                 <li class="nav-item active">
-                    <a class="nav-link text-light px-lg-4" href="/">Home</a>
+                    <a class="nav-link text-light px-lg-4" href="/jakartabarbierun/#">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-light px-lg-4" href="/#pricing">Sponsor & Partners</a>
+                    <a class="nav-link text-light px-lg-4" href="/jakartabarbierun/#sponsor">Sponsor & Partners</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-light px-lg-4" href="/#testimonial">Race Information</a>
+                    <a class="nav-link text-light px-lg-4" href="/jakartabarbierun/#race_information">Race
+                        Information</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-light px-lg-4" href="/#identity_section">About Event</a>
+                    <a class="nav-link text-light px-lg-4" href="/jakartabarbierun/#about_event">About Event</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-light px-lg-4" href="/#identity_section">Contact Us</a>
+                    <a class="nav-link text-light px-lg-4" href="/jakartabarbierun/#contact">Contact Us</a>
                 </li>
             </ul>
 

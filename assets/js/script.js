@@ -21,3 +21,10 @@ var x = setInterval(function() {
     $('#countdown').addClass('text-center text-muted').text("Acara Berakhir");
   }
 }, 1000);
+
+
+window.addEventListener(
+    'hashchange',
+    () => window.history.pushState({}, '', '/jakartabarbierun/'),
+    {}
+);

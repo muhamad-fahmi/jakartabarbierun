@@ -21,6 +21,10 @@
     --color-shade-primary: #ad1365ff;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 html, body {
     overflow-x: hidden;
 }

@@ -1,0 +1,450 @@
+@font-face {
+    font-family: "Oswald";
+    src: url('../font/Oswald-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Monserat";
+    src: url('../font/Montserrat-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Monserat_Bold";
+    src: url('../font/Montserrat-Bold.ttf');
+}
+
+:root {
+    --font-family-1: Oswald, sans serif;
+    --font-family-2: Monserat, sans serif;
+    --font-family-3: Monserat_Bold, sans serif;
+    --color-primary: #e01883ff;
+    --color-shade-primary: #ad1365ff;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+.text-primary {
+    color: var(--color-primary) !important;
+}
+.border-primary {
+    border: 1px solid var(--color-primary) !important;
+}
+a.text-primary:hover,
+a.text-primary:focus {
+    text-decoration: none;
+    color: var(--color-shade-primary) !important;
+
+}
+
+.btn-primary,
+.bg-primary {
+    background-color: var(--color-primary) !important;
+    border: none;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: var(--color-shade-primary) !important;
+}
+
+.card {
+    border-radius: 1rem !important;
+}
+
+.mt-5 {
+    margin-top: 10rem;
+}
+
+
+/* navbar start */
+#navbar .navbar .navbar-nav .nav-item .nav-link{
+    font-family: var(--font-family-1) !important;
+    text-transform: uppercase !important;
+    font-size: 18px;
+}
+#navbar .navbar .btn-action .btn.btn-outline-light{
+    font-family: var(--font-family-1) !important;
+    text-transform: uppercase !important;
+}
+#navbar .navbar .btn-action .btn.btn-outline-light:hover,
+#navbar .navbar .btn-action .btn.btn-outline-light:focus{
+    color: var(--color-primary);
+}
+#navbar .navbar {
+    height: 80px;
+    padding-inline: 4rem;
+}
+
+#navbar .navbar .navbar-brand img {
+    width: 7.5rem;
+}
+/* end navbar */
+
+/* hero header start */
+.desktop-banner {
+    width: 100%;
+    height: 100vh;
+    margin-top: 4rem;
+}
+
+.mobile-banner {
+    display: none;
+}
+/* end hero header */
+
+
+/* sponsor start */
+#sponsor {
+    padding-block: 4rem;
+}
+.media_sponsor {
+    height: 100px;
+    width: 200px;
+    margin-bottom: 15px;
+    padding: 1rem;
+}
+.sponsor-title {
+    font-family: var(--font-family-1);
+    font-size: 28px;
+    margin-bottom: 2rem;
+    color: var(--color-primary);
+}
+/* end sponsor */
+
+/* race information start */
+
+#race_information .race-category {
+    
+    background-color: #f9f9f9ff;
+    padding-block: 4rem;
+}
+#race_information .title {
+    font-size: 28px;
+    font-family: var(--font-family-1);
+    color: var(--color-primary);
+    margin-bottom: 2rem;
+}
+#race_information .desc {
+    font-size: 18px;
+    font-family: var(--font-family-2);
+}
+#race_information .list-group .list-group-item {
+    background-color: transparent;
+    font-family: var(--font-family-2);
+}
+#race_information .title-cat,
+#race_information .price-cat {
+    font-family: var(--font-family-3);
+    color: var(--color-primary);
+}
+
+#race_information .rules-regulation img.pattern-webpage {
+    position: relative;
+    margin-top: -16rem;
+    margin-left: -5rem;
+    width: 24rem;
+    opacity: 0.4;
+}
+#race_information .rules-regulation{
+    background-color: #f9f9f9ff;
+    padding-block: 4rem;
+}
+
+#race_information .rules-regulation .title {
+    position: relative;
+    margin-top: -12rem;
+}
+
+#race_information .rules-regulation .contents .text-justify{
+    font-family: var(--font-family-2);
+    line-height: 40px;
+}
+
+#race_information .rules-regulation .contents li {
+    list-style: none;
+}
+
+#race_information .rules-regulation .contents li:before {    
+    font-family: 'FontAwesome';
+    content: '\f058';
+    margin:0 15px 0 -35px;
+    color: var(--color-primary);
+}
+
+#race_information .pendaftaran {
+    font-family: var(--font-family-2);
+    padding-block: 6rem;
+}
+
+#race_information .pendaftaran .text-justify{
+    line-height: 40px;
+}
+
+#race_information .pendaftaran .card .card-header {
+    display: flex;
+    justify-content: center;
+    background-color: transparent !important;
+    position: relative;
+}
+
+#race_information .pendaftaran .card .card-header:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    background-image: url('../images/webpage/pattern-01.png');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+  }
+
+#race_information .pendaftaran .card .card-body {
+    padding-top: 4rem;
+}
+
+
+#race_information .pendaftaran .text-number {
+    position: relative;
+    bottom: -2.5rem;
+    background-color: var(--color-primary);
+    width: 50px;
+    height: 50px;
+    padding: 7px;
+    border-radius: 50px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#race_information .ketentuan-racepack {
+    padding-bottom: 6rem;
+}
+
+#race_information .ketentuan-racepack .card {
+    font-family: var(--font-family-2);
+    background-image: url("../images/webpage/pattern-01.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: var(--color-shade-primary);
+}
+
+#race_information .ketentuan-racepack .card .card-body {
+    line-height: 40px;
+}
+
+#race_information .ketentuan-racepack .card .card-body li {
+    list-style: none;
+}
+
+#race_information .ketentuan-racepack .card .card-body li:before {    
+    font-family: 'FontAwesome';
+    content: '\f058';
+    margin:0 15px 0 -35px;
+    color: white;
+}
+
+#race_information .syarat-ketentuan {
+    padding-bottom: 6rem;
+}
+
+#race_information .syarat-ketentuan .text-justify {
+    font-family: var(--font-family-2);
+    line-height: 40px;
+}
+
+#race_information .faq {
+    padding-bottom: 6rem;
+}
+
+#race_information .faq .card {
+    font-family: var(--font-family-2);
+    line-height: 40px;
+}
+
+#race_information .schedule {
+    padding-block: 6rem;
+}
+
+#race_information .schedule .icon {
+    font-size: 30px; 
+}
+
+/* end race information */
+
+
+/* about event */
+#about_event {
+    padding-block: 5rem;
+}
+#about_event .title {
+    font-size: 28px;
+    font-family: var(--font-family-1);
+    color: var(--color-primary);
+    margin-bottom: 2rem;
+}
+
+#about_event .contents {
+    font-family: var(--font-family-2);
+    line-height: 40px;
+}
+
+/* end about event */
+
+/* contact us */
+#contact {
+    padding-block: 5rem;
+    background-color: var(--color-shade-primary);
+    color: white;
+}
+
+#contact .title {
+    font-size: 28px;
+    font-family: var(--font-family-1);
+    color: white;
+    margin-bottom: 2rem;
+}
+
+#contact .desc {
+    font-family: var(--font-family-2);
+    line-height: 40px;
+}
+
+#contact .contents {
+    font-family: var(--font-family-2);
+    line-height: 40px;
+}
+
+/* contact us end */
+
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    /* navbar */
+    #navbar .navbar {
+        padding-inline: 1.5rem;
+        padding-block: 1rem;
+    }
+    #navbar .navbar .navbar-brand img {
+        width: 5rem;
+    }
+    #navbar .dropdown .dropdown-menu {
+        margin-block: 1rem;
+    }
+    #navbar .navbar-collapse {
+        background-color: white;
+        margin-top: 30px !important;
+        border-radius: 1rem;
+        padding-block: 1.5rem;
+        padding-inline: 2rem;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+        z-index: 999999;
+        color: var(--color-primary) !important;
+    }
+    #navbar .nav-item .nav-link {
+        color: var(--color-primary) !important;
+    }
+    #navbar .nav-item .nav-link:hover, 
+    #navbar .nav-item .nav-link:focus {
+        color: var(--color-shade-primary) !important;
+    }
+    
+    #navbar .btn-book.btn-outline-light {
+        margin-top: 2rem;
+        width: 100%;
+        background-color: var(--color-primary);
+        color: white;
+    }
+    #navbar .btn-book.btn-outline-light:hover,
+    #navbar .btn-book.btn-outline-light:focus {
+        margin-top: 2rem;
+        width: 100%;
+        background-color: var(--color-shade-primary);
+        color: white !important;
+    }
+    /* navbar */
+
+    img.desktop-banner {
+        display: none !important;
+    }
+
+    .mobile-banner {
+        margin-top: 3rem;
+        display: block;
+        width: 100%;
+        height: 90vh;
+        position: relative;
+        background-image: url("../images/webpage/pattern-barbie-run.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .mobile-banner .content {
+        width: 100%;
+        display: flex;
+        padding-top: 8rem;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .mobile-banner .barbie-fun-run-text {
+        width: 20rem;
+    }
+
+    /* sponsor start */
+    .media_sponsor {
+        height: 60px;
+        width: 140px;
+        margin-bottom: 15px;
+        padding: .7rem;
+    }
+    .default_sponsor { 
+        width: 70px; 
+        height: 70px;
+    }
+    .sponsor-title {
+        font-size: 24px;
+    }
+    /* end sponsor */
+
+    /* countdown */
+    .countdown {
+        margin-top: 1rem;
+    }
+    .countdown .card{
+        font-family: var(--font-family-1);
+        color: var(--color-primary);
+    }
+    .countdown .card .card-footer{
+        background-color: var(--color-primary);
+        color: white;
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+    }
+    /* end countdown */
+
+    .event-info {
+        margin-top: 3rem;
+        font-family: var(--font-family-1);
+        font-size: 29px;
+        line-height: 50px;
+        color: var(--color-primary);
+    }
+
+    .btn-register {
+        position: relative;
+        margin-top: 4rem;
+    }
+
+    #race_information .title {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+}

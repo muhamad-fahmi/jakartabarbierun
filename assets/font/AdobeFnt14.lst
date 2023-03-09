@@ -1,0 +1,60 @@
+%!Adobe-FontList 1.14
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:CommerceCondSSiSemiBold
+FamilyName:CommerceCondSSi
+StyleName:SemiBold
+FullName:CommerceCondSSi SemiBold
+MenuName:CommerceCondSSi
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\xampp\htdocs\Project\Project Barbie City Run\asset\Font\COMMCS_Bold.TTF
+DataFormat:sfntData
+FileLength:57912
+FileModTime:1564739306
+WeightClass:600
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:CommerceCondSSiItalic
+FamilyName:CommerceCondSSi
+StyleName:Italic
+FullName:CommerceCondSSi Italic
+MenuName:CommerceCondSSi
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\xampp\htdocs\Project\Project Barbie City Run\asset\Font\COMMCS_Italic.TTF
+DataFormat:sfntData
+FileLength:62488
+FileModTime:1564739306
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:CommerceCondSSi
+FamilyName:CommerceCondSSi
+StyleName:Regular
+FullName:CommerceCondSSi
+MenuName:CommerceCondSSi
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\xampp\htdocs\Project\Project Barbie City Run\asset\Font\COMMCS_Reg.TTF
+DataFormat:sfntData
+FileLength:57452
+FileModTime:1564739306
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+

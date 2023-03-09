@@ -1,0 +1,20 @@
+
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteBase "/jakartabarbierun/"
+	#RewriteRule ^(.*)$ pagemanager.php?test=$1 [L,QSA]
+	RewriteRule ^home$ index.php [L]
+	#RewriteRule ^race_info$ race_info.php [L]
+	#RewriteRule ^about_event$ about_event.php [L]
+	#RewriteRule ^contact_us$ contact_us.php [L]
+	#RewriteRule ^sponsor$ sponsor.php [L]
+	RewriteRule ^register$ register.php [L]
+	RewriteRule ^payment_success$ register_success.php [L]
+	RewriteRule ^payment_pending$ register_pending.php [L]
+	RewriteRule ^pay$ register_midtrans_.php [L]
+</IfModule>
+
+#Options +FollowSymLinks
+
+#RewriteRule ^home$ index.php [L]
+#ErrorDocument 404 /home

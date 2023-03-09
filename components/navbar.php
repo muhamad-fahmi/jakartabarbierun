@@ -29,8 +29,7 @@
             </ul>
 
             <div class="btn-action">
-                <a href="https://api.whatsapp.com/send?phone={{ $about->whatsapp }}&text=Hai, Saya tertarik dengan tawaran paket trekking yang anda tawarkan di website"
-                    class="btn btn-lg btn-outline-light btn-book">Register Now</a>
+                <a href="#" class="btn btn-lg btn-outline-light btn-book">Register Now</a>
             </div>
 
         </div>

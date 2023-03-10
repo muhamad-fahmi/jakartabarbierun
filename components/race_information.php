@@ -133,14 +133,14 @@
                         </div>
                         <div class="card-body bg-light">
                             Pendaftaran dapat dilakukan di <a target="_blank"
-                                class="text-primary font-weight-bold text-decoration-none">www.lari.id/jakartabarbierun/register</a>
+                                class="text-primary font-weight-bold text-decoration-none">www.lari.id/jbr2023/register</a>
                             atau
                             melalui Apps Lari.id yang
                             bisa didownload melalui Play Store atau App Store.
                         </div>
                         <div class="card-footer border-0 bg-light">
                             <div class="d-flex flex-column">
-                                <a href="http://www.lari.id/jakartabarbierun/register" class="btn btn-primary w-100"
+                                <a href="http://www.lari.id/jbr2023/register" class="btn btn-primary w-100"
                                     target="_blank"><i class="fas fa-globe mr-3"></i>Daftar di Website</a>
                                 <a href="https://play.google.com/store/apps/details?id=com.primainteraktif.lari"
                                     class="btn btn-primary w-100 mt-2" target="_blank"><i
@@ -237,8 +237,8 @@
                 <li>Pembelian tiket/ pendaftaran dianggap berhasil jika sudah melakukan pembayaran.</li>
                 <li>Tidak diperkenankan untuk pemindahtanganan dan atau praktek jual beli pendaftaran Jakarta Barbie
                     Run diluar dari
-                <li>Pendaftaran dapat dilakukan di <a href="http://www.lari.id/jakartabarbierun/register"
-                        target="_blank" class="text-primary font-weight-bold">www.lari.id/jakartabarbierun/register</a>
+                <li>Pendaftaran dapat dilakukan di <a href="http://www.lari.id/jbr2023/register"
+                        target="_blank" class="text-primary font-weight-bold">www.lari.id/jbr2023/register</a>
                     atau
                     <a href="https://play.google.com/store/apps/details?id=com.primainteraktif.lari" target="_blank"
                         class="text-primary font-weight-bold">aplikasi

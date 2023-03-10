@@ -25,6 +25,6 @@ var x = setInterval(function() {
 
 window.addEventListener(
     'hashchange',
-    () => window.history.pushState({}, '', '/jakartabarbierun/'),
+    () => window.history.pushState({}, '', '/jbr2023/'),
     {}
 );

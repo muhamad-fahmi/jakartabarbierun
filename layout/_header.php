@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <title>Local - Jakarta Barbie Run 2023</title>
+    <title>Jakarta Barbie Run 2023</title>
     <meta name="title" content="Jakarta Barbie Run 2023">
     <meta name="description"
         content="Jakarta Berbie Run 2023 adalah event khusus untuk para runner yang diselenggarakan oleh Lari.id. Lari.id mengajak para runner di Jakarta dan luar Jakarta untuk lari bersama pada event Jakarta Barbie Run 2023">
